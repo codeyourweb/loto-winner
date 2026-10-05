@@ -1,0 +1,13 @@
+Flask>=3.0.0
+Flask-Cors>=4.0.0
+Flask-Limiter>=3.5.0
+
+# --- Export PDF ---
+reportlab>=4.0.0
+
+# --- Production ---
+# Serveur WSGI multiplateforme (Windows et Linux).
+waitress>=3.0.0
+
+# --- Tests ---
+pytest>=8.0.0

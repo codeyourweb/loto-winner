@@ -1,0 +1,25 @@
+# Dépendances Python
+backend/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Base de données générée
+*.db
+*.sqlite3
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Journaux des scripts de lancement
+.backend.log
+.frontend.log
+*.pid
+
+# Divers
+.env
+.env.local
+.DS_Store
+Thumbs.db
+.vscode/settings.json
